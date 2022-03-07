@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "https://ranjankhyadad.github.io"
 footnoteReturnLinkContents = '↩'
 title   = "Ranjan Khyadad"
 description = "Portfolio site"
@@ -36,7 +36,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/blog/:year/:month/:title/"
+  posts = "/posts/:year/:month/:title/"
 
 [author]
   name = "Ranjan Khyadad"
