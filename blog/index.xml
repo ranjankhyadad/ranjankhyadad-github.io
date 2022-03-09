@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Ranjan Khyadad</title>
-    <link>http://ranjankhyadad.github.io/blog/</link>
+    <link>https://ranjankhyadad.github.io/blog/</link>
     <description>Recent content in Blogs on Ranjan Khyadad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://ranjankhyadad.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ranjankhyadad.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

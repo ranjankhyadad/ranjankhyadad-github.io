@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ranjan Khyadad</title>
-    <link>http://ranjankhyadad.github.io/about/</link>
+    <link>https://ranjankhyadad.github.io/about/</link>
     <description>Recent content on Ranjan Khyadad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://ranjankhyadad.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://ranjankhyadad.github.io/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
