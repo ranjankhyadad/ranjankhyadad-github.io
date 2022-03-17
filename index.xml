@@ -7,6 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ranjankhyadad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Mar 2022 15:45:20 +0530</lastBuildDate><atom:link href="https://ranjankhyadad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Journey</title>
+      <link>https://ranjankhyadad.github.io/blog/my-journey/</link>
+      <pubDate>Mon, 14 Mar 2022 15:45:20 +0530</pubDate>
+      
+      <guid>https://ranjankhyadad.github.io/blog/my-journey/</guid>
+      <description>Hi folks,
+This is my first post on this website. I want to start this journey by telling you all who I am and how my career has been so far.
+I am Ranjan, an ECE graduate from BMS College of Engineering in 2017. I am a CyberSecurity analyst and a software developer, who&amp;rsquo;s always in search of new things to learn and experiment.
+Chapter 1: I started my professional career in Wipro in 2017.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ranjankhyadad.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ranjankhyadad.github.io/about/</guid>
+      <description>Hi, my name is
+Ranjan Khyadad. I safeguard companies from cyber threats and write code. I am a CyberSecurity Engineer, specialising in Cyber Defense using Microsoft Security Suite. I currently work as a CyberSecurity Senior Analyst at Mindtree.
+I build meaningful solutions to real world problems using my unique set of multi-domain skills. I write my code in Python.
+For any professional queries, reach out to me on Mail or send me a message on LinkedIn.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ranjankhyadad.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ranjankhyadad.github.io/contact/</guid>
+      <description>Get in touch!   Mail
+  LinkedIn
+  Twitter
+  </description>
+    </item>
+    
   </channel>
 </rss>
