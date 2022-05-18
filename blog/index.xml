@@ -7,7 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 14 Mar 2022 15:45:20 +0530</lastBuildDate><atom:link href="https://ranjankhyadad.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 May 2022 10:00:26 +0530</lastBuildDate><atom:link href="https://ranjankhyadad.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atomic Habits - Takeaways</title>
+      <link>https://ranjankhyadad.github.io/blog/atomic-habits/</link>
+      <pubDate>Wed, 18 May 2022 10:00:26 +0530</pubDate>
+      
+      <guid>https://ranjankhyadad.github.io/blog/atomic-habits/</guid>
+      <description>My Takeaways Chapter1 Growth   1% improvement everyday ,makes you 37 times better in a year, while getting worse 1% everyday will take you back to ZERO. Compounding works the same way as money.
+  Small changes matter a lot. Results don&amp;rsquo;t come immediately. So, don&amp;rsquo;t slide into bad habits or previous habits. Remember, a small degree shift in the angle makes a larger difference in the direction.</description>
+    </item>
+    
+    <item>
+      <title>Linux Fundamentals</title>
+      <link>https://ranjankhyadad.github.io/blog/linux-fundamentals/</link>
+      <pubDate>Sun, 08 May 2022 13:37:14 +0530</pubDate>
+      
+      <guid>https://ranjankhyadad.github.io/blog/linux-fundamentals/</guid>
+      <description>Shortcuts
+Auto-Complete
+[TAB] - Initiates auto-complete. This will suggest to us different options based on the STDIN we provide. These can be specific suggestions like directories in our current working environment, commands starting with the same number of characters we already typed, or options. Cursor Movement
+[CTRL] + A - Move the cursor to the beginning of the current line.
+[CTRL] + E - Move the cursor to the end of the current line.</description>
+    </item>
+    
     <item>
       <title>My Journey</title>
       <link>https://ranjankhyadad.github.io/blog/my-journey/</link>
