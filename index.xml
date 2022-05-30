@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 18 May 2022 10:00:26 +0530</lastBuildDate><atom:link href="https://ranjankhyadad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 May 2022 20:15:57 +0530</lastBuildDate><atom:link href="https://ranjankhyadad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning How to Learn</title>
+      <link>https://ranjankhyadad.github.io/blog/learning-how-to-learn/</link>
+      <pubDate>Mon, 30 May 2022 20:15:57 +0530</pubDate>
+      
+      <guid>https://ranjankhyadad.github.io/blog/learning-how-to-learn/</guid>
+      <description>The process of &amp;ldquo;learning how to learn&amp;rdquo; is complicated. Most of us have never truly learned how to learn effectively.
+This useful excerpt is from a module on Hack the Box.
+Learning Efficiency The sheer size of the information security field is overwhelming to any new learner. There is a lot to learn and many topics to cover.
+The primary and most difficult objective we must overcome is the combination of our knowledge, adaptation, and new information.</description>
+    </item>
+    
     <item>
       <title>Atomic Habits - Takeaways</title>
       <link>https://ranjankhyadad.github.io/blog/atomic-habits/</link>
