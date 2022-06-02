@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 31 May 2022 13:54:43 +0530</lastBuildDate><atom:link href="https://ranjankhyadad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jun 2022 13:00:55 +0530</lastBuildDate><atom:link href="https://ranjankhyadad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Secure Your Web Apps</title>
+      <link>https://ranjankhyadad.github.io/blog/secure-your-web-apps/</link>
+      <pubDate>Thu, 02 Jun 2022 13:00:55 +0530</pubDate>
+      
+      <guid>https://ranjankhyadad.github.io/blog/secure-your-web-apps/</guid>
+      <description>This is my attempt to understand the basic security flaws a web developer might encounter while developing a web application.
+This blog is just my takeaways from the Hack the Box&amp;rsquo;s Introduction to Web Applications module. Please refer OWASP Top Ten for the detailed list.
+The top 20 most common mistakes web developers make that cause vulnerabilities are:
+ Permitting Invalid Data to Enter the Database Focusing on the System as a Whole Establishing Personally Developed Security Methods Treating Security to be Your Last Step Developing Plain Text Password Storage Creating Weak Passwords Storing Unencrypted Data in the Database Depending Excessively on the Client Side Being Too Optimistic Permitting Variables via the URL Path Name Trusting third-party code Hard-coding backdoor accounts Unverified SQL injections Remote file inclusions Insecure data handling Failing to encrypt data properly Not using a secure cryptographic system Ignoring layer 8 Review user actions Web Application Firewall misconfigurations  These lead to our OWASP Top Ten:</description>
+    </item>
+    
     <item>
       <title>Google Dorking</title>
       <link>https://ranjankhyadad.github.io/blog/google-dorking/</link>
