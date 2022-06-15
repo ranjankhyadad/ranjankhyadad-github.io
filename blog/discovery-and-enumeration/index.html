@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Ranjan">
+<meta name="description" content="Service Scanning   The first thing we need to do is identify the operating system and any available services that might be running. Check if we can coerce the service into performing some unintended action that supports our objectives, such as executing a command of our choosing. Computers are assigned an IP address, which allows them to be uniquely identified and accessible on a network. The services running on these computers may be assigned a port number to make the service accessible." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://ranjankhyadad.github.io/blog/discovery-and-enumeration/" />
+
+
+    <title>
+        
+            Discovery and Enumeration :: Ranjan Khyadad 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://ranjankhyadad.github.io/main.4e5c639214707eff609bb55fe49e183dee42258a73bc90e4cc7b0a84f900798a.css">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ranjankhyadad.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ranjankhyadad.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ranjankhyadad.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://ranjankhyadad.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://ranjankhyadad.github.io/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="https://ranjankhyadad.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+<meta itemprop="name" content="Discovery and Enumeration">
+<meta itemprop="description" content="Service Scanning   The first thing we need to do is identify the operating system and any available services that might be running. Check if we can coerce the service into performing some unintended action that supports our objectives, such as executing a command of our choosing. Computers are assigned an IP address, which allows them to be uniquely identified and accessible on a network. The services running on these computers may be assigned a port number to make the service accessible."><meta itemprop="datePublished" content="2022-06-05T14:03:18+05:30" />
+<meta itemprop="dateModified" content="2022-06-05T14:03:18+05:30" />
+<meta itemprop="wordCount" content="908"><meta itemprop="image" content="https://ranjankhyadad.github.io/"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://ranjankhyadad.github.io/"/>
+
+<meta name="twitter:title" content="Discovery and Enumeration"/>
+<meta name="twitter:description" content="Service Scanning   The first thing we need to do is identify the operating system and any available services that might be running. Check if we can coerce the service into performing some unintended action that supports our objectives, such as executing a command of our choosing. Computers are assigned an IP address, which allows them to be uniquely identified and accessible on a network. The services running on these computers may be assigned a port number to make the service accessible."/>
+
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2022-06-05 14:03:18 &#43;0530 IST" />
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://ranjankhyadad.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text">Ranjan</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://ranjankhyadad.github.io/about/">About</a></li><li><a href="https://ranjankhyadad.github.io/blog/">Blog</a></li><li><a href="https://ranjankhyadad.github.io/contact/">Contact</a></li><li><a href="https://ranjankhyadad.github.io/projects/">Projects</a></li><li><a href="https://ranjankhyadad.github.io/resume.pdf">Resume</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://ranjankhyadad.github.io/blog/discovery-and-enumeration/">Discovery and Enumeration</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <h2 id="service-scanning">Service Scanning</h2>
+<hr>
+<ul>
+<li>The first thing we need to do is identify the operating system and any available services that might be running.</li>
+<li>Check if we can coerce the service into performing some unintended action that supports our objectives, such as executing a command of our choosing.</li>
+<li>Computers are assigned an IP address, which allows them to be uniquely identified and accessible on a network. The services running on these computers may be assigned a port number to make the service accessible.</li>
+</ul>
+<blockquote>
+<p>Ports 1 to 1,023 being reserved for privileged services.</p>
+</blockquote>
+<ol>
+<li>Nmap</li>
+</ol>
+<ul>
+<li>Suppose that we want to perform a basic scan against a target residing at 10.129.42.253. To do this we should type nmap 10.129.42.253 and hit return. We see that the Nmap scan was completed very quickly. This is because if we don&rsquo;t specify any additional options, Nmap will only scan the 1,000 most common ports by default. The scan output reveals that ports 21, 22, 80, 139, and 445 are available.</li>
+</ul>
+<pre tabindex="0"><code>User@htb[/htb]$ nmap 10.129.42.253
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-02-25 16:07 EST
+Nmap scan report for 10.129.42.253
+Host is up (0.11s latency).
+Not shown: 995 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 2.19 seconds
+</code></pre><blockquote>
+<p>Tip: port 3389 available says it&rsquo;s a Windows machine; port 22 (SSH) being available indicates that the target is running Linux/Unix but it can be configured on Windows too</p>
+</blockquote>
+<blockquote>
+<p><code>nmap -sV -sC -p- 10.129.42.253</code></p>
+</blockquote>
+<ul>
+<li>
+<h4 id="nmap-scripts">Nmap Scripts:</h4>
+</li>
+<li>Specifying -sC will run many useful default scripts against a target, but there are cases when running a specific script is required.</li>
+<li>In an assessment scope, we may be asked to audit a large Citrix installation. We could use <a href="https://raw.githubusercontent.com/cyberstruggle/DeltaGroup/master/CVE-2019-19781/CVE-2019-19781.nse">this</a> Nmap script to audit for the severe Citrix NetScaler vulnerability (CVE-2019–19781), while Nmap also has other scripts to audit a Citrix installation.</li>
+</ul>
+<blockquote>
+<p><code>locate scripts/citrix</code></p>
+</blockquote>
+<ul>
+<li>The syntax for running an Nmap script is <code>nmap --script &lt;script name&gt; -p&lt;port&gt; &lt;host&gt;</code></li>
+</ul>
+<h4 id="attacking-network-services">Attacking Network Services</h4>
+<ol>
+<li>Banner Grabbing</li>
+</ol>
+<ul>
+<li>Banner grabbing is a useful technique to fingerprint a service quickly.</li>
+<li>Often a service will look to identify itself by displaying a banner once a connection is initiated.</li>
+<li>Nmap will attempt to grab the banners if the syntax <code>nmap -sV --script=banner &lt;target&gt; </code>is specified.</li>
+<li>Using netcat,<code>nc -nv 10.129.42.253 21</code> gives us the banner on port 21.</li>
+</ul>
+<ol start="2">
+<li>FTP</li>
+</ol>
+<ul>
+<li>A Nmap scan of the default port for FTP (21) reveals the vsftpd version installation.</li>
+<li>Run <code>nmap -sC -sV -p21 10.129.42.253</code> for checking anonymous authenticationon FTP port 21.</li>
+<li>Connecting to the service using the ftp command-line utility-<code>ftp -p 10.129.42.253</code></li>
+<li>Access files and login data using this to further your testing.</li>
+</ul>
+<ol start="3">
+<li>SMB</li>
+</ol>
+<ul>
+<li>SMB (Server Message Block) is a prevalent protocol on Windows machines that provides many vectors for vertical and lateral movement.</li>
+<li>Sensitive data, including credentials, can be in network file shares, and some SMB versions may be vulnerable to RCE exploits such as EternalBlue. It is crucial to enumerate this sizeable potential attack surface carefully.</li>
+<li>Nmap has many scripts for enumerating SMB, such as smb-os-discovery.nse, which will interact with the SMB service to extract the reported operating system version.</li>
+</ul>
+<blockquote>
+<p><code>nmap --script smb-os-discovery.nse -p445 10.10.10.40</code></p>
+</blockquote>
+<ul>
+<li>Shares:</li>
+<li>SMB allows users and administrators to share folders and make them accessible remotely by other users.</li>
+<li>Often these shares have files in them that contain sensitive information such as passwords. A tool that can enumerate and interact with SMB shares is <strong>smbclient</strong>.</li>
+</ul>
+<blockquote>
+<p><code>smbclient -N -L \\\\10.129.42.253</code></p>
+<p><code>smbclient -U bob \\\\10.129.42.253\\users</code></p>
+</blockquote>
+<ol start="4">
+<li>SNMP</li>
+</ol>
+<ul>
+<li>SNMP Community strings provide information and statistics about a router or device, helping us gain access to it.</li>
+<li>The manufacturer default community strings of public and private are often unchanged. In SNMP versions 1 and 2c, access is controlled using a plaintext community string, and if we know the name, we can gain access to it.</li>
+</ul>
+<h3 id="web-enumeration">Web Enumeration</h3>
+<hr>
+<ul>
+<li>Webservers host web applications (sometimes more than 1) which often provide a considerable attack surface and a very high-value target during a penetration test. Proper web enumeration is critical, especially when an organization is not exposing many services or those services are appropriately patched.</li>
+</ul>
+<ol>
+<li>Gobuster</li>
+</ol>
+<ul>
+<li>After discovering a web application, it is always worth checking to see if we can uncover any hidden files or directories on the webserver that are not intended for public access.</li>
+<li>We can use a tool such as ffuf or GoBuster to perform this directory enumeration.</li>
+<li>GoBuster is a versatile tool that allows for performing DNS, vhost, and directory brute-forcing. The tool has additional functionality, such as enumeration of public AWS S3 buckets.</li>
+</ul>
+<h4 id="directoryfile-enumeration">Directory/File Enumeration</h4>
+<blockquote>
+<p><code>gobuster dir -u http://10.10.10.121/ -w /usr/share/wordlists/dirb/common.txt</code></p>
+</blockquote>
+<h4 id="dns-subdomain-enumeration">DNS Subdomain Enumeration</h4>
+<blockquote>
+<p><code>git clone https://github.com/danielmiessler/SecLists</code></p>
+<p><code>sudo apt install seclists -y</code></p>
+</blockquote>
+<ul>
+<li>Next, add a DNS Server such as 1.1.1.1 to the /etc/resolv.conf file. To target the domain inlanefreight.com,</li>
+</ul>
+<blockquote>
+<p><code>gobuster dns -d inlanefreight.com -w /usr/share/SecLists/Discovery/DNS/namelist.txt</code></p>
+</blockquote>
+<p>Tips:</p>
+<ul>
+<li>Banner Grabbing / Web Server Headers - cURL, Eyewitness(can be used to take screenshots of target web applications, fingerprint them, and identify possible default credentials.)</li>
+<li>Whatweb - We can extract the version of web servers, supporting frameworks, and applications using the command-line tool whatweb. Ex- <code>whatweb 10.10.10.121</code></li>
+<li>Certificates - Browsing to a website and viewing the certificate reveals the email address and company name.</li>
+<li>Robots.txt - purpose is to instruct search engine web crawlers such as Googlebot which resources can and cannot be accessed for indexing. The robots.txt file can provide valuable information such as the location of private files and admin pages.</li>
+<li>Source Code - <code>Ctrl+U</code></li>
+</ul>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span><span>Made with &#10084; by <a href="https://github.com/ranjankhyadad">Ranjan</a></span>
+        </div>
+    </div>
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://ranjankhyadad.github.io/bundle.min.2d3d449fc0ff117f00ac91342a8f76cd5b710411d7a0254dbe75da3234d2f685d6a0c44cff60c414e90b6a149da8e4032c713c25e4e6838e2e3918dc0ad2e81c.js" integrity="sha512-LT1En8D/EX8ArJE0Ko92zVtxBBHXoCVNvnXaMjTS9oXWoMRM/2DEFOkLahSdqOQDLHE8JeTmg44uORjcCtLoHA=="></script>
+
+
+
+    </body>
+</html>

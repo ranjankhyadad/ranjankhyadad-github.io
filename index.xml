@@ -7,7 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 02 Jun 2022 13:00:55 +0530</lastBuildDate><atom:link href="https://ranjankhyadad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jun 2022 15:50:16 +0530</lastBuildDate><atom:link href="https://ranjankhyadad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploitation</title>
+      <link>https://ranjankhyadad.github.io/blog/exploitation/</link>
+      <pubDate>Sun, 05 Jun 2022 15:50:16 +0530</pubDate>
+      
+      <guid>https://ranjankhyadad.github.io/blog/exploitation/</guid>
+      <description>Public Exploits   Once we identify the services running on ports identified from our Nmap scan, the first step is to look if any of the applications/services have any public exploits. Public exploits can be found for web applications and other applications running on open ports, like SSH or ftp.  Finding Public Exploits  Google for the application name with exploit to see if we get any results Ex- &amp;ldquo;windows 7 smb exploit&amp;rdquo; A well-known tool for this purpose is searchsploit, which we can use to search for public vulnerabilities/exploits for any application.</description>
+    </item>
+    
+    <item>
+      <title>Discovery and Enumeration</title>
+      <link>https://ranjankhyadad.github.io/blog/discovery-and-enumeration/</link>
+      <pubDate>Sun, 05 Jun 2022 14:03:18 +0530</pubDate>
+      
+      <guid>https://ranjankhyadad.github.io/blog/discovery-and-enumeration/</guid>
+      <description>Service Scanning   The first thing we need to do is identify the operating system and any available services that might be running. Check if we can coerce the service into performing some unintended action that supports our objectives, such as executing a command of our choosing. Computers are assigned an IP address, which allows them to be uniquely identified and accessible on a network. The services running on these computers may be assigned a port number to make the service accessible.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started With Pentesting</title>
+      <link>https://ranjankhyadad.github.io/blog/getting-started-with-pentesting/</link>
+      <pubDate>Fri, 03 Jun 2022 15:50:33 +0530</pubDate>
+      
+      <guid>https://ranjankhyadad.github.io/blog/getting-started-with-pentesting/</guid>
+      <description>In a nutshell, infosec is the practice of protecting data from unauthorized access, changes, unlawful use, disruption, etc. Infosec professionals also take actions to reduce the overall impact of any such incident.
+Data can be electronic or physical and tangible (e.g., design blueprints) or intangible (knowledge). A common phrase that will come up many times in our infosec career is protecting the &amp;ldquo;confidentiality, integrity, and availability of data,&amp;rdquo; or the CIA triad.</description>
+    </item>
+    
     <item>
       <title>Secure Your Web Apps</title>
       <link>https://ranjankhyadad.github.io/blog/secure-your-web-apps/</link>
@@ -90,18 +118,6 @@ Chapter 1: I started my professional career in Wipro in 2017.</description>
 Ranjan Khyadad. I safeguard companies from cyber threats and write code. I am a CyberSecurity Engineer, specialising in Cyber Defense using Microsoft Security Suite. I currently work as a CyberSecurity Senior Analyst at Mindtree.
 I build meaningful solutions to real world problems using my unique set of multi-domain skills. I write my code in Python.
 For any professional queries, reach out to me on Mail or send me a message on LinkedIn.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ranjankhyadad.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ranjankhyadad.github.io/contact/</guid>
-      <description>Get in touch!   Mail
-  LinkedIn
-  Twitter
-  </description>
     </item>
     
   </channel>
